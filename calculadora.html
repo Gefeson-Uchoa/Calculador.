@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    </div>
+    <div class="main">
+        <form action="" name="Calculator">
+            <input type="text" class="text maincolor" name="txt1" disabled>
+            <input type="text" class="text1 maincolor" name="txt12" value="c" onclick="location.reload()"><br>
+
+            <input type="button" class="num maincolor" name="b9" value="9" onclick="display(b9.value)">
+            <input type="button" class="num maincolor" name="b8" value="8" onclick="display(b8.value)">
+            <input type="button" class="num maincolor" name="b7" value="7" onclick="display(b7.value)">
+            <input type="button" class="num red" name="addb" value="+" onclick="display(addb.value)"><br>
+
+            <input type="button" class="num maincolor" name="b6" value="6" onclick="display(b6.value)">
+            <input type="button" class="num maincolor" name="b5" value="5" onclick="display(b5.value)">
+            <input type="button" class="num maincolor" name="b4" value="4" onclick="display(b4.value)">
+            <input type="button" class="num yellow" name="subb" value="-" onclick="display(subb.value)"><br>
+
+            <input type="button" class="num maincolor" name="b3" value="3" onclick="display(b3.value)">
+            <input type="button" class="num maincolor" name="b2" value="2" onclick="display(b2.value)">
+            <input type="button" class="num maincolor" name="b1" value="1" onclick="display(b1.value)">
+            <input type="button" class="num green" name="mulb" value="*" onclick="display(mulb.value)"><br>
+
+            <input type="button" class="num maincolor" name="bp" value=". " onclick="display(bp.value)">
+            <input type="button" class="num maincolor" name="b0" value="0" onclick="display(b0.value)">
+            <input type="button" class="num maincolor" name="bi" value="=" onclick="txt1.value=eval(txt1.value)">
+            <input type="button" class="num orange" name="divb" value="/" onclick="display(divb.value)"><br>
+
+        </form>
+        <footer><h1>Calculadora digital.</h1></footer>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
